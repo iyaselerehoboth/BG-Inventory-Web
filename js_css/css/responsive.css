@@ -1,0 +1,127 @@
+@media screen and (max-width:1199px){
+.container{ width:98%;}
+.ads > li {
+    margin: 5px;
+    width: 30%;
+}
+}
+
+@media screen and (max-width:1070px){
+.carousel-caption{ top:5%;}
+}
+
+@media screen and (max-width:1024px){
+.big_txt {
+    font-size: 38px;
+    line-height: 40px;
+}
+.carousel-caption > p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+}
+@media screen and (max-width:980px){
+.search_box button.btn{ width:180px;}
+}
+@media screen and (max-width:960px){
+.nav > li > a{ padding:15px 10px;} 
+.search_box input{ width:38% !important; display:inline-block;}
+}
+@media screen and (max-width:880px){
+.nav > li > a{ padding:15px 8px;}
+.nav > li.add_busi_btn > a{ padding:8px 10px;}
+
+.search_box button.btn {
+    width: 22%;
+}
+}
+@media screen and (max-width:840px){
+.nav > li > a{ font-size:13px;padding:15px 5px;}
+.nav > li.add_busi_btn > a{ padding:8px 10px;}
+}
+@media screen and (max-width:800px){
+#head .col-md-10.col-sm-10 {
+    padding: 0;
+}
+.carousel-caption{ left:5%;}
+.grn_btn{ font-size:13px; padding:10px 15px;}
+.title2{ font-size:26px;}
+.publi_block > span{ font-size:18px;}
+}
+
+@media screen and (max-width:767px){
+	#head.fixed{position:static;}
+	.brand-logo {    position: relative;    z-index: 100; display:inline-block; width:200px;}
+	#head .col-md-10.col-sm-10 {
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 100%;
+    z-index: 10;
+}
+.sign_up_form form {
+    padding: 20px 0;
+}
+.nav.navbar-nav { text-align:center;}
+.nav.navbar-nav > li {
+    display: inline-block;
+    width: 48%;
+}
+.nav.navbar-nav > li.add_busi_btn{ width:300px; float:none;}
+.big_txt {
+    font-size: 28px;
+    line-height: 32px;
+}
+.ser_box::before{ display:none;}
+.busi_details{ width:100%; margin:10px 0;}
+.offering{ width:100%; text-align:center;}
+}
+
+@media screen and (max-width:668px){
+	.big_txt{ margin-bottom:5px;}
+.carousel-caption > p{ display:none;}
+#search_section h1.title,.title2,#state_section .title2,#green_box h1{ font-size:24px;}
+}    
+
+@media screen and (max-width:640px){
+.search_box input{ width:100% !important; display:block; margin-bottom:5px;} 
+.search_box button.btn {
+    width: 100%;
+}  
+}
+@media screen and (max-width:520px){
+.big_txt {
+    font-size: 22px;
+    line-height: 24px;
+}
+ .ads > li {
+    margin: 5px;
+    width: 100%;
+	max-width:250px;
+}
+.copy{ text-align:center;}
+.copy a{ float:none; display:block; margin:10px 0;}
+}
+
+@media screen and (max-width:480px){
+	form .grn_btn{ display:block;}
+	.grn_btn{ display:none;}
+	#state_section .col-xs-4 {
+    width: 48%;
+}
+
+}
+@media screen and (max-width:360px){
+.carousel-caption{ left:15px; top:15px; padding-top: 0;}
+.subscribe_box input.form-control{ width:100%;}
+.subscribe_box button.form-control{ width:100%; margin:5px 0;}
+.foot_social {
+    margin-top: 10px;
+    text-align: center;
+}
+.location_add input, .location_add select{ width:100%;}
+}
