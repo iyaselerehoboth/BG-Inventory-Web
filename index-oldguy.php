@@ -144,7 +144,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <script>
 
-      swal("Incorrect Login", "Kindly confirm login credentials", "error");
+      swal.fire("Incorrect Login", "Kindly confirm login credentials", "error");
     </script>
 
 

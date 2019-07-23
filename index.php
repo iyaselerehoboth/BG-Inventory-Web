@@ -11,7 +11,7 @@ session_start();
 <head>
     <title>BG Inventory Management Application</title>
     <link rel="stylesheet" type="text/css" href="login_style.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </head>
 
 <body>
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ?>
 
         <script>
-            swal("Oops...", "Incorrect Login Details", "error");
+            swal.fire("Oops...", "Incorrect Login Details", "error");
         </script>
 
     <?php
